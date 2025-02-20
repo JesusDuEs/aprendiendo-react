@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Saludo from './components/Saludo'
 import Contador from './components/Contador'
+import Formulario from './components/Formulario'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
         <h1>Mi primer proyecto con React y TypeScript</h1>
         <Saludo nombre='Jesus'/>
         <Contador />
+        <Formulario />
       </div>
       
     </>
